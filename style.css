@@ -16,6 +16,7 @@ header{
 
 .logo{
     margin: 16px;
+    width: 9rem;
 }
 
 .barras{
@@ -25,7 +26,17 @@ header{
     left: 0%;
 }
 
+img{
+    width: 140%;
+}
+
 .portada{
+    position: relative;
+    left: -15%;
+}
+
+.credito{
+    margin-right: 10px;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
 }
