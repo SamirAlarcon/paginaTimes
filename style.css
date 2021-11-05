@@ -11,8 +11,16 @@ html{
 header{
     display: flex;
     justify-content: center;
+    height: 64px;
 }
 
 .logo{
     margin: 16px;
+}
+
+.barras{
+    margin: 22px 24px;
+    width: 20px;
+    position: absolute;
+    left: 0%;
 }
