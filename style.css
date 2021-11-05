@@ -11,7 +11,7 @@ html{
 header{
     display: flex;
     justify-content: center;
-    height: 64px;
+    max-height: 64px;
 }
 
 .logo{
@@ -23,4 +23,9 @@ header{
     width: 20px;
     position: absolute;
     left: 0%;
+}
+
+.portada{
+    display: flex;
+    justify-content: center;
 }
