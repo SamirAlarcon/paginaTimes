@@ -40,3 +40,56 @@ img{
     display: flex;
     justify-content: flex-end;
 }
+
+.titulo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 10px;
+}
+
+hr{
+    height: 2px;
+    width: 30%;
+}
+
+.titulo a{
+    color: red;
+    margin:0 15px;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+.titulo-2{
+    display: flex;
+    justify-content: center;
+    margin: 0 16px;
+}
+
+.titulo-2 a{
+    text-decoration: none;
+    color: black;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.sub-titulo{
+    display: flex;
+    justify-content: center;
+    margin: 20px 16px;
+}
+
+.sub-titulo p{
+    font-size: 1.8rem;
+    text-align: center;
+    color: darkgray;
+}
+
+.flecha{
+    display: flex;
+    justify-content: center;
+}
+
+.flecha a img{
+    width: 45px;
+}
