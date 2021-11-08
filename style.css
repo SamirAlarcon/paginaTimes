@@ -11,7 +11,22 @@ html{
 header{
     display: flex;
     justify-content: center;
-    max-height: 64px;
+    min-height: 64px;
+}
+
+.descktop{
+    display: none;
+    justify-content: center;
+    min-height: 64px;
+    border-bottom: 1px solid #222222;
+}
+
+.header-botones{
+    display: none;
+}
+
+.b-enlace{
+    display: none;
 }
 
 .logo{
