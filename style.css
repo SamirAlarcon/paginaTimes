@@ -26,7 +26,7 @@ header{
     left: 0%;
 }
 
-img{
+.portada img{
     width: 140%;
 }
 
@@ -96,10 +96,9 @@ hr{
 }
 
 .galeria{
-    height: 500px;
+    min-height: 500px;
     width: 100%;
     background-color: rgb(233, 233, 233);
-    position: absolute;
 }
 
 .titulo-galeria{
@@ -155,4 +154,41 @@ hr{
     text-align: center;
     font-size: 1.2rem;
     color: rgb(63, 63, 63);
+}
+
+.galeria-2{
+    margin: 32px 0;
+    min-height: 800px;
+}
+
+.galeria-2 img{
+    width: 100%;
+    padding: 0 16px;
+}
+
+.ga-2-foto{
+    margin: 16px;
+}
+
+.ga-2-foto figure p{
+    margin: 0 16px;
+    text-align: end;
+    color: darkgray;
+    font-size: 1rem;
+}
+
+.ga-2-foto a{
+    text-decoration: none;
+    color: black;
+}
+
+.ga-2-foto h2{
+    margin: 32px 20px;
+    font-size: 2.2rem;
+}
+
+.ga-2-foto p{
+    margin: 0 20px;
+    font-size: 1.7rem;
+    color: rgb(87, 87, 87);
 }
