@@ -192,3 +192,101 @@ hr{
     font-size: 1.7rem;
     color: rgb(87, 87, 87);
 }
+
+.figuras-mapa{
+    height: 300px;
+}
+
+.mapamundi h3{
+    text-align: center;
+    font-size: 2.5rem;
+    margin: 32px;
+}
+
+.mapas{
+    display: flex;
+    justify-content: center;
+}
+
+.mapa{
+    margin: 16px;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: black 1px solid;
+}
+
+.mapa figure{
+    height: 150px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mapa figure img{
+    width: 120px;
+}
+
+.mapa-adorno{
+    position: relative;
+    width: 25px;
+    margin-top: -15px;
+    left: 60px;
+    background-color: rgb(255, 255, 255);
+}
+
+.mapa h4{
+    text-align: center;
+    font-size: 2rem;
+    
+}
+
+.tabla{
+    display: flex;
+    justify-content: center;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+.fila{
+    height: 60px;
+}
+
+.c1{
+    width: 80px;
+    text-align: start;
+    padding:0 14px;
+}
+
+.c2{
+    text-align: start;
+    padding:0 14px;
+    color: rgb(105, 105, 105);
+}
+
+.c3{
+    text-align: end;
+    padding: 0 14px;
+    color: rgb(105, 105, 105);
+}
+
+.tabla table{
+    width: 320px;
+    font-size: 1.5rem;
+}
+
+.f1{
+    background-color: #f0f1f2;
+    border-radius: 15%;
+}
+
+.verde{
+    color: rgb(64, 146, 92);
+}
+
+.rojo{
+    color: rgb(221, 48, 48);
+}
