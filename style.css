@@ -27,12 +27,12 @@ header{
 }
 
 .portada img{
-    width: 140%;
+    width: 100%;
 }
 
 .portada{
     position: relative;
-    left: -15%;
+    left: 0;
 }
 
 .credito{
@@ -96,9 +96,10 @@ hr{
 }
 
 .galeria{
-    min-height: 500px;
+    min-height: 300px;
     width: 100%;
     background-color: rgb(233, 233, 233);
+    padding: 20px 0;
 }
 
 .titulo-galeria{

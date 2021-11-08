@@ -1,0 +1,79 @@
+.contenedor{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header{
+    border-bottom: 1px solid #7a7a7a;
+}
+
+.seccion1{
+    width: 70%;
+    order: 1;
+    margin-top: 50px;
+}
+
+.portada img{
+    width: 100%;
+}
+
+.portada{
+    position: relative;
+    left: 0;
+}
+
+.galeria-2{
+    order: 2;
+    width: 30%;
+}
+
+.galeria{
+    order: 3;
+    width: 100%;
+}
+
+.mapamundi{
+    order: 4;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.titulo-2{
+    margin: 0 40px;
+}
+
+.t1{
+    order: 1;
+}
+
+.figuras-mapa{
+    order: 2;
+}
+
+.t2{
+    order: 3;
+}
+
+.tabla{
+    margin-top: 100px;
+}
+
+.titulo-2 a{
+    font-size: 3.5rem;
+}
+
+.sub-titulo p{
+    margin: 20px 80px;
+    font-size: 2rem;
+}
+
+.imagenes-galeria figure img{
+    width: 150px;
+    height: 150px;
+}
+
+.foto-x{
+    margin: 0 40px;
+}
